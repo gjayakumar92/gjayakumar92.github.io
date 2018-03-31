@@ -35,7 +35,7 @@ module.exports = ""
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  <h1>\n    Welcome to {{title}}!\n  </h1>\n</div>\n<div>\n<router-outlet></router-outlet>\n</div>\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  <h1>\n    Welcome to {{title}}!\n  </h1>\n  <a [routerLink]=\"['/material-forms']\">Material Forms</a> &nbsp; &nbsp; &nbsp;\n  <a [routerLink]=\"['/material-forms/reused']\">Reused</a>\n</div>\n<div>\n<router-outlet></router-outlet>\n</div>\n\n"
 
 /***/ }),
 
